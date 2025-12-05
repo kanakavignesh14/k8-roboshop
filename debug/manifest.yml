@@ -1,3 +1,7 @@
+# only pod is here. this to check other pods are working fine.
+# this docker imahe has necceary 
+#RUN dnf install telnet net-tools iputils bind-utils -y. is installed so
+# it will help to do curl http://<servicename>:port
 apiVersion: v1
 kind: Pod
 metadata:
